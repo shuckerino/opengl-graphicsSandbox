@@ -2,10 +2,10 @@
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
 
-#include"VBO.h"
-#include"VAO.h"
-#include"IBO.h"
-#include"shaderClass.h"
+#include"../headers/VBO.h"
+#include"../headers/VAO.h"
+#include"../headers/IBO.h"
+#include"../headers/shaderClass.h"
 using namespace std;
 
 // Vertices for a triforce (= positions of corners)
@@ -60,7 +60,7 @@ int main() {
 	glViewport(0, 0, 900, 900);
 
 	// Specify shaders
-	Shader shaderProgram("default.vert", "default.frag");
+	Shader shaderProgram("src/default.vert", "src/default.frag");
 
 	// Create Vertex Array Object and bind it
 	VAO VAO1;

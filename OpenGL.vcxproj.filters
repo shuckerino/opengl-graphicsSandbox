@@ -18,44 +18,44 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shaderClass.cpp">
+    <ClCompile Include="src\shaderClass.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="VBO.cpp">
+    <ClCompile Include="src\VBO.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="src\glad.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="IBO.cpp">
+    <ClCompile Include="src\IBO.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="VAO.cpp">
+    <ClCompile Include="src\VAO.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shaderClass.h">
+    <ClInclude Include="headers\shaderClass.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="VBO.h">
+    <ClInclude Include="headers\VBO.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="VAO.h">
+    <ClInclude Include="headers\VAO.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="IBO.h">
+    <ClInclude Include="headers\IBO.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="default.frag">
+    <None Include="src\default.frag">
       <Filter>Ressourcendateien\Shaders</Filter>
     </None>
-    <None Include="default.vert">
+    <None Include="src\default.vert">
       <Filter>Ressourcendateien\Shaders</Filter>
     </None>
   </ItemGroup>

@@ -1,4 +1,4 @@
-#include"IBO.h"
+#include"../headers/IBO.h"
 
 IBO::IBO(GLuint* indices, GLsizeiptr size) {
 

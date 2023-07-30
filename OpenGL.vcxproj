@@ -147,22 +147,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="IBO.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="shaderClass.cpp" />
-    <ClCompile Include="VBO.cpp" />
-    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\IBO.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\shaderClass.cpp" />
+    <ClCompile Include="src\VBO.cpp" />
+    <ClCompile Include="src\VAO.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="default.frag" />
-    <None Include="default.vert" />
+    <None Include="src\default.frag" />
+    <None Include="src\default.vert" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IBO.h" />
-    <ClInclude Include="shaderClass.h" />
-    <ClInclude Include="VAO.h" />
-    <ClInclude Include="VBO.h" />
+    <ClInclude Include="headers\IBO.h" />
+    <ClInclude Include="headers\shaderClass.h" />
+    <ClInclude Include="headers\VAO.h" />
+    <ClInclude Include="headers\VBO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

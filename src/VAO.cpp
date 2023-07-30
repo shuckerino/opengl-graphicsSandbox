@@ -1,4 +1,4 @@
-#include"VAO.h"
+#include"../headers/VAO.h"
 
 // Constructor with no args
 VAO::VAO() {
